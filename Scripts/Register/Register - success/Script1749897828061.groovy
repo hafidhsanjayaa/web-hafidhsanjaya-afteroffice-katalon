@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import javax.swing.JOptionPane
+
 
 WebUI.openBrowser('https://demoqa.com/')
 
@@ -47,12 +49,14 @@ WebUI.setText(findTestObject('Register page/First name - field'), 'user')
 WebUI.setText(findTestObject('Register page/Last name - field'), 'dummy1')
 
 def randomName = 'User' + org.apache.commons.lang.RandomStringUtils.randomNumeric(4)
-WebUI.setText(findTestObject('Register page/User name - field'), randomName)
-//WebUI.setText(findTestObject('Register page/User name - field'), 'userdummy1')
 
+WebUI.setText(findTestObject('Register page/User name - field'), randomName)
+
+//WebUI.setText(findTestObject('Register page/User name - field'), 'userdummy1')
 WebUI.setText(findTestObject('Register page/Password - field'), '@Password12')
 
 KeywordUtil.logInfo('Silakan selesaikan CAPTCHA dalam 20 detik...')
+JOptionPane.showMessageDialog(null, "Silakan isi CAPTCHA dalam 20 detik, lalu klik OK untuk lanjut")
 
 WebUI.delay(20)
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create new user</name>
+   <name>Login invalid user - Negative</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e07244ba-17ea-4a39-9728-41c78e635f12</testCaseGuid>
+   <testCaseGuid>2e39c50c-58dd-4064-920f-49942a8f05c4</testCaseGuid>
 </TestCaseEntity>
