@@ -6,11 +6,12 @@
    <UUID>d921bba9-d866-4f21-b9cf-987f59de3bde</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.2.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.2.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Hafidh Sanjaya\Katalon Studio\Final Project After Office - Katalon Studio\Final Project After Office - Katalon Studio.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
