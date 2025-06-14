@@ -51,18 +51,14 @@ def randomName = 'User' + org.apache.commons.lang.RandomStringUtils.randomNumeri
 
 WebUI.setText(findTestObject('Register page/User name - field'), randomName)
 
+//WebUI.setText(findTestObject('Register page/User name - field'), 'userdummy1')
 WebUI.setText(findTestObject('Register page/Password - field'), '@Password12')
 
 WebUI.scrollToElement(findTestObject('Register page/content - container'), 0)
 
-JOptionPane.showMessageDialog(null, 'Silakan isi CAPTCHA dalam 20 detik, lalu klik OK untuk lanjut') //for showing alert to complete the CAPTCHA manually
-WebUI.delay(20)
-
 WebUI.click(findTestObject('Register page/Register - btn'))
 
-WebUI.delay(5)
-
-WebUI.acceptAlert()
+WebUI.verifyElementPresent(findTestObject('Register page/alert failed regist - txt'), 0)
 
 WebUI.closeBrowser()
 

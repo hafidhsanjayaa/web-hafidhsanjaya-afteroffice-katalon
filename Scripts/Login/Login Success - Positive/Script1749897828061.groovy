@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Books page/Login - btn'))
 
 WebUI.verifyElementPresent(findTestObject('Login page/Form - container'), 0)
 
+WebUI.scrollToElement(findTestObject('Login page/Login - btn'), 0)
+
 WebUI.setText(findTestObject('Login page/username - field'), 'userdummy1')
 
 WebUI.setText(findTestObject('Login page/password - field'), '@Password12')
