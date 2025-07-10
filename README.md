@@ -39,10 +39,12 @@ The test cases cover common web functionalities using the public testing site [D
 ## 📸 Sample Screenshots
 
 ### 🧪 Test Script in Katalon
-<img src="Screenshots/test-script-.jpg" width="600"/>
+<img src="Screenshots/test-script-register-success1.jpg" width="600"/>
+<img src="Screenshots/test-script-register-success2.jpg" width="600"/>
+<img src="Screenshots/test-script-register-success3.jpg" width="600"/>
 
 ### ✅ Test Execution Result
-<img src="Screenshots/test-result-create-user.jpg" width="600"/>
+<img src="Screenshots/test-result-register-success.jpg" width="600"/>
 
 ---
 
