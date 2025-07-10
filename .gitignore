@@ -1,4 +1,3 @@
-# IDE & build
 .settings/
 .settings
 settings/
@@ -7,16 +6,10 @@ build/
 Reports/
 output/
 Libs/
-
-# Katalon internal
 console.properties
 Include/config/
-
-# Optional IDE noise
 .classpath
 .project
 .cache
-
-# Others
-*.iml
-*.log
+.iml
+.log
