@@ -1,18 +1,22 @@
-.gradle
+# IDE & build
+.settings/
+.settings
+settings/
+bin/
+build/
+Reports/
+output/
+Libs/
 
-bin
+# Katalon internal
+console.properties
+Include/config/
 
-Reports
-
-Libs
-
-output
-
-!output/.gitkeep
-build
-
+# Optional IDE noise
 .classpath
-
 .project
-
 .cache
+
+# Others
+*.iml
+*.log
