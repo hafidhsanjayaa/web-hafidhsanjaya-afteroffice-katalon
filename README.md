@@ -35,6 +35,9 @@ The test cases cover common web functionalities using the public testing site [D
 📄 README.md
 
 ---
+##⚠️ Browser Compatibility Notice
+💡 Recommended to run the test using browsers other than Chrome (such as Firefox or Edge) to avoid potential issues with WebDriver compatibility or blocked pop-ups during execution.
+---
 
 ## 📸 Sample Screenshots
 
